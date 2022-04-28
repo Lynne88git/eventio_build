@@ -16,5 +16,23 @@
   "bugs": {
     "url": "https://github.com/Lynne88git/eventio_build/issues"
   },
-  "homepage": "https://github.com/Lynne88git/eventio_build#readme"
+  "homepage": "https://github.com/Lynne88git/eventio_build#readme",
+  "dependencies": {
+    "babel-loader": "^8.2.5",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/react": "^18.0.8",
+    "@types/react-dom": "^18.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "typescript": "^4.6.3",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  }
 }
