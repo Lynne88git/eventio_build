@@ -1,7 +1,9 @@
+import Login from './components/Login/Login'
+
 export default function App() {
   return (
     <div>
-      <h4>React TS Webpack Template</h4>
+      <Login />
     </div>
   )
 }
