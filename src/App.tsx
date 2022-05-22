@@ -1,9 +1,12 @@
-import Login from './components/Login/Login'
+// import React, { FC } from 'react'
+import Register from './components/Register/Register'
 
-export default function App() {
+const App: React.FC = () => {
   return (
     <div>
-      <Login />
+      <Register />
     </div>
   )
 }
+
+export default App

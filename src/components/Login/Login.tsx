@@ -1,7 +1,7 @@
-import React from 'react'
+// import React, { FC } from 'react'
 import '../Login/Login.scss'
 
-export default function Login() {
+const Login: React.FC = () => {
   return (
     <>
       <div className="container">
@@ -44,3 +44,5 @@ export default function Login() {
     </>
   )
 }
+
+export default Login

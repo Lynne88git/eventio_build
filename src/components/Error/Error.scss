@@ -1,16 +1,25 @@
 @import '../../variables';
-.form-container {
+
+.message-container {
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
   top: 0;
   height: 100%;
+  width: 100%;
+  left: 0;
 }
 
-.sign-in-container {
-  right: 0;
-  left: 0;
-  width: 100%;
-  margin: 0 auto;
-  z-index: 2;
+.message {
+  background-image: url('../../assets/logos/icon.svg');
+  background-repeat: no-repeat;
+  width: 880px;
+  height: 433px;
+  padding-left: 25%;
+  padding-top: 7%;
 }
 
 .overlay-container {
@@ -89,34 +98,8 @@
   margin-left: 61px;
 }
 
-.signup-blurb {
-  position: absolute;
-  display: inline-flex;
-  top: 0;
-  right: 0;
-  margin-top: 24px;
-  margin-left: 61px;
-  width: 246px;
-  text-align: left;
-
-  p {
-    color: $light-gray;
-  }
-
-  a {
-    text-transform: uppercase;
-    color: $gray;
-  }
-}
-
 .overlay-panel-text {
   position: absolute;
   bottom: 86px;
   width: 100%;
-}
-
-.feedback-error {
-  color: red;
-  font-size: 14px;
-  font-weight: 400;
 }
